@@ -7,6 +7,8 @@ something to protect ollama api endpoints for such use cases lol using nginx for
 
 ## important part
 
+self explanatory if you know what you are doing.
+
 ```nginx
 map $http_authorization $auth_allowed {
   default 0; # Deny by default
